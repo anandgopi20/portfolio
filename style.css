@@ -9,7 +9,7 @@ body {
 
 /* Header Styles */
 header {
-    background: https://github.com/anandgopi20/portfolio/blob/772c3b79c4d548ccf1285d1941359dd30c5ee9a2/background-image.jpg;
+    background: url('https://images.app.goo.gl/Kkg5QUdShsKh9Tjg9') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 80px 20px;
