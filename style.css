@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Light Gray Background */
+    background-color: #F3F4F6; /* Light Gray for a cleaner look */
     color: #333;
 }
 
@@ -12,81 +12,99 @@ header {
     background: url('images/background-image.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 100px 20px;
-    font-size: 28px;
+    padding: 80px 20px;
+    font-size: 32px;
     font-weight: bold;
-    background-color: rgba(0, 0, 139, 0.7); /* Dark Blue Overlay */
+    background-color: rgba(25, 42, 86, 0.8); /* Subtle dark overlay */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background: #1A237E; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1E3A8A; /* Navy Blue for a professional touch */
     padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold hover effect */
 }
 
 /* Section Styles */
 section {
-    max-width: 1000px;
-    margin: 50px auto;
+    max-width: 900px;
+    margin: 40px auto;
     background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 139, 0.2);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
-    border-bottom: 3px solid #4B0082;
+    border-bottom: 3px solid #2563EB; /* Blue Accent */
     padding-bottom: 10px;
-    font-size: 28px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1E40AF; /* Navy Text */
     text-transform: uppercase;
 }
 
 p, ul {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.7;
+    color: #4B5563; /* Neutral Gray */
 }
 
 ul {
     padding-left: 25px;
+    list-style-type: disc;
 }
 
 /* Contact Section */
 #contact a {
-    color: #0000FF; /* Blue */
+    color: #2563EB; /* Professional Blue */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
 #contact a:hover {
+    color: #1E40AF; /* Darker Blue on hover */
     text-decoration: underline;
 }
 
 /* Button Styling */
 button {
-    background-color: #4B0082; /* Indigo */
+    background-color: #1E40AF; /* Navy Button */
     color: white;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #0000CD; /* Medium Blue */
+    background-color: #2563EB; /* Lighter Blue Hover */
+    transform: scale(1.05);
 }
